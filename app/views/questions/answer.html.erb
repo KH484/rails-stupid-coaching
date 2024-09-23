@@ -1,0 +1,15 @@
+<div class="mb-3 container">
+  <p><%= @question %></p>
+  <p><%= "- Your question" %></p>
+
+  <% if @question == "I am going to work" %>
+    <p><%= "Great!" %></p>
+    <p><%= "- Your Coach" %></p>
+  <% elsif @question.include? "?" %>
+    <p><%= "Silly question, get dressed and go to work!" %></p>
+    <p><%= "- Your Coach" %></p>
+  <% else %>
+    <p><%= "I don't care, get dressed and go to work!" %></p>
+    <p><%= "- Your Coach" %></p>
+  <% end %>
+</div>

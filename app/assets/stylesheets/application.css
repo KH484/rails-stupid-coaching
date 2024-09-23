@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+.btn {
+margin-top: 10px;
+font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+font-family: 'Courier New', Courier, monospace;
+font-size: 14px;
+}
