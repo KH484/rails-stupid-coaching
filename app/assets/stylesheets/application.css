@@ -20,5 +20,10 @@ font-family: 'Courier New', Courier, monospace;
 
 p {
 font-family: 'Courier New', Courier, monospace;
-font-size: 14px;
+font-size: 25px;
+}
+
+.question {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
 }

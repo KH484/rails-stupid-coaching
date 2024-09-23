@@ -1,15 +1,21 @@
-<div class="mb-3 container">
-  <p><%= @question %></p>
+<div class="mb-3 container alert alert-warning">
+  <p <%= @question %></p>
   <p><%= "- Your question" %></p>
 
   <% if @question == "I am going to work" %>
+  <div class="alert alert-info">
     <p><%= "Great!" %></p>
     <p><%= "- Your Coach" %></p>
+    </div>
   <% elsif @question.include? "?" %>
+  <div class="alert alert-info">
     <p><%= "Silly question, get dressed and go to work!" %></p>
     <p><%= "- Your Coach" %></p>
+    </div>
   <% else %>
+    <div class="alert alert-info">
     <p><%= "I don't care, get dressed and go to work!" %></p>
     <p><%= "- Your Coach" %></p>
+    </div>
   <% end %>
 </div>
